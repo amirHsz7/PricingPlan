@@ -33,4 +33,17 @@ const options = [
   { label: 'Yearly', value: 'yearly' },
   { label: 'Monthly', value: 'monthly' },
 ]
+
+const data = ref(null)
+  
+await getRequest('/api/app/app')
+.then((response) => {
+    const {data} = parseApiResponse(response)
+    
+    console.log(data);
+    
+})
+.catch((error)=>{
+  console.log(error);
+})
 </script>

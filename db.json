@@ -1,0 +1,94 @@
+{
+    "monthly" : [
+    {
+      "title" : "Start",
+      "subtitle" : "ideal for individuals managing personal crypto finances",
+      "checklists" : [
+        "up to 5 wallets",
+        "Basic portfolio tracking",
+        "Transition history overview",
+        "support 24/7"
+       ],
+      "price" : "15",
+      "btn_value" : "Upgrade",
+      "tip":"7 days free"
+
+    },
+    {
+      "title" : "growth",
+      "subtitle" : "Built for traders and small businesses scaling their web3 operation",
+      "checklists" : [
+        "everything in start",
+        "unlimited wallets",
+        "advanced portfolio insights",
+        "real-time tax reporting tools",
+        "multi-chain support",
+        "priority customer support 24/7"
+       ],
+      "price" : "39",
+      "btn_value" : "Manage",
+      "tip":"2 days until expiration"
+    },
+    {
+      "title" : "Enterprice",
+      "subtitle" : "Perfect for web3 builders, companies and financial teams.",
+      "checklists" : [
+        "everything in growth",
+        "Dedicated account manager",
+        "API access for customers integration",
+        "multi user permissions",
+        "SLA-backed 24/7 support",
+        "compliance and audit reports"
+       ],
+      "price" : "Custom Pricing",
+      "btn_value" : "contact us",
+      "tip":"individual"
+    }
+  ],
+    "yearly" : [
+    {
+      "title" : "Start",
+      "subtitle" : "ideal for individuals managing personal crypto finances",
+      "checklists" : [
+        "up to 5 wallets",
+        "Basic portfolio tracking",
+        "Transition history overview",
+        "support 24/7"
+       ],
+      "price" : "150",
+      "btn_value" : "Upgrade",
+      "tip":"7 days free"
+
+    },
+    {
+      "title" : "growth",
+      "subtitle" : "Built for traders and small businesses scaling their web3 operation",
+      "checklists" : [
+        "everything in start",
+        "unlimited wallets",
+        "advanced portfolio insights",
+        "real-time tax reporting tools",
+        "multi-chain support",
+        "priority customer support 24/7"
+       ],
+      "price" : "300",
+      "btn_value" : "Manage",
+      "tip":"2 days until expiration"
+    },
+    {
+      "title" : "Enterprice",
+      "subtitle" : "Perfect for web3 builders, companies and financial teams.",
+      "checklists" : [
+        "everything in growth",
+        "Dedicated account manager",
+        "API access for customers integration",
+        "multi user permissions",
+        "SLA-backed 24/7 support",
+        "compliance and audit reports"
+       ],
+      "price" : "Custom Pricing",
+      "btn_value" : "contact us",
+      "tip":"individual"
+    }
+  ]
+}
