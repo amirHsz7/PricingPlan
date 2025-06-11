@@ -44,8 +44,8 @@
             </div>
             <!-- btns -->
             <div class="mt-4 px-2 flex flex-col justify-center items-center gap-2">
-                <Button :wide="true" color="gray" >Sign In</Button>
-                <Button :wide="true" color="dark" >Free Trial</Button>
+                <Button :wide="true" size="lg" color="gray" >Sign In</Button>
+                <Button :wide="true" size="lg" color="dark" >Free Trial</Button>
             </div>
 
         </Drawer>

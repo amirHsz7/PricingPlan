@@ -1,8 +1,11 @@
 <template>
         
-    <div v-show="data" class="grid grid-rows-[auto-auto-1fr-auto] items-end rounded-xl p-4 gap-4 min-h-[456px]" :class="data?.best_choice == 'true' ? 'text-white bg-black scale-110' : 'text-black bg-gray-100' ">
+    <div v-show="data" class="grid grid-rows-[auto-auto-1fr-auto] items-end rounded-xl p-4 gap-4 min-h-[456px]" :class="data?.best_choice == 'true' ? 'text-white bg-black md:scale-110' : 'text-black bg-gray-100' ">
         <!-- title -->
-        <h4 class="heading-6">{{ data?.title }}</h4>
+        <div class="flex justify-between ">
+            <h4 class="heading-6">{{ data?.title }}</h4>
+            <div v-if="data?.best_choice == 'true'" class="py-1 px-2 bg-dark-blue rounded-full text-sm-r">Best Choice</div>
+        </div>
 
         <!-- subtitle -->
         <p class="text-lg-b text-primary-text  break-all">{{ data?.subtitle }}</p>
