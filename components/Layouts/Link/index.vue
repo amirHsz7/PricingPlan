@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink :to="link" class="text-primary-text transition hover:text-dark-600 cursor-pointer ">
+    <NuxtLink :to="url" class="text-primary-text transition hover:text-dark-600 cursor-pointer ">
         {{ text }}
     </NuxtLink>
 </template>

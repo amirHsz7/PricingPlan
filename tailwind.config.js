@@ -45,6 +45,7 @@ module.exports = {
 			'primary-text': '#637381',
 			'secondary-text': '#8899A8',
 			'stroke': '#DFE4EA',
+			'dark-blue': '#053a75',
 			//dark
 			'dark': '#050505',
 			'dark-200': '#707070',
@@ -67,6 +68,17 @@ module.exports = {
 	plugins: [
 		plugin(function ({ addComponents }) {
 			addComponents({
+				// headings
+				'.heading-1': {
+				fontFamily: "sans-bold",
+				fontSize: '104px',
+				lineHeight: '84px',
+				},
+				'.heading-6': {
+				fontFamily: "modam-semi-bold",
+				fontSize: '24px',
+				lineHeight: '30px',
+				},
 				// text large
 				'.text-lg-r': {
 					fontFamily: 'sans-regular',
