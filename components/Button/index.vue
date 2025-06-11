@@ -210,7 +210,9 @@ function keyup(e) {
         @apply h-8 p-1 px-2  gap-2;
     }
 
-
+    &.lg {
+        @apply h-12 px-8 gap-2;
+    }
     &.hide{
         @apply hidden
     }
