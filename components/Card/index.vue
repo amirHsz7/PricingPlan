@@ -36,12 +36,9 @@
                 <div class="text-sm-r text-center text-primary-text">{{ data?.tip }}</div>
             </div>
         </div>
-
-
     </div>
 
     <div v-show="!data" class="min-h-[520px] animate-pulse">
-
     </div>
 
 </template>
@@ -54,6 +51,4 @@ const props = defineProps({
     required : true
   }
 })
-
-console.log('props',props.data)
 </script>

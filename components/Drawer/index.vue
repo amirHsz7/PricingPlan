@@ -1,14 +1,12 @@
 <template>
-    <!-- <Teleport to="body"> -->
-        <transition name="drawer-slide-right" >
-            <div v-show="show" class="drawer-component">
-                <div class="drawer-bg" @click="close"></div>
-                <div class="drawer-frame" :style="{maxWidth}">
-                    <slot />
-                </div>
+    <transition name="drawer-slide-right" >
+        <div v-show="show" class="drawer-component">
+            <div class="drawer-bg" @click="close"></div>
+            <div class="drawer-frame" :style="{maxWidth}">
+                <slot />
             </div>
-        </transition>
-    <!-- </Teleport> -->
+        </div>
+    </transition>
 </template>
 
 <script setup>
@@ -27,15 +25,8 @@ const props = defineProps({
         default:true
     }
 })
-watch(()=>props.show , to=>{
-    if(to) {
-        // PageScroll(!to)
-        // console.log(to);
-    }
-})
 
 const close = () => {
-    // PageScroll(true)
     props.closable && emit('close')
 }
 </script>
