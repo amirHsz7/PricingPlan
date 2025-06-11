@@ -5,7 +5,7 @@
       <!-- background -->
       <img src="@/assets/images/background.png" class="absolute object-cover" alt="">
       <!-- title -->
-      <h1 class="heading-1 z-20 text-center">Pricing Plans</h1>
+      <h1 class="heading-3 md:heading-1 z-20 text-center">Pricing Plans</h1>
       <!-- subtitle -->
       <h2 class="heading-6 z-20 max-w-[551px] text-primary-text text-center break-before-auto">
         Manage , Tracks and optimize your digital assets with a plan built for your needs.
