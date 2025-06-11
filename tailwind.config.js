@@ -70,26 +70,26 @@ module.exports = {
 			addComponents({
 				// headings
 				'.heading-1': {
-				fontFamily: "sans-bold",
+				fontFamily: "clearsans-bold",
 				fontSize: '104px',
 				lineHeight: '84px',
 				},
 				'.heading-6': {
-				fontFamily: "modam-semi-bold",
+				fontFamily: "clearsans-bold",
 				fontSize: '24px',
 				lineHeight: '30px',
 				},
 				// text large
 				'.text-lg-r': {
-					fontFamily: 'sans-regular',
+					fontFamily: 'clearsans-regular',
 					fontSize: '17px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
 						fontSize: '16px',
 					}
 				},
-				'.text-lg-s': {
-					fontFamily: 'sans-semi-bold',
+				'.text-lg-m': {
+					fontFamily: 'clearsans-medium',
 					fontSize: '17px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
@@ -97,7 +97,7 @@ module.exports = {
 					}
 				},
 				'.text-lg-b': {
-					fontFamily: 'sans-bold',
+					fontFamily: 'clearsans-bold',
 					fontSize: '17px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
@@ -106,15 +106,15 @@ module.exports = {
 				},
 				// text medium
 				'.text-md-r': {
-					fontFamily: 'sans-regular',
+					fontFamily: 'clearsans-regular',
 					fontSize: '15px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
 						fontSize: '14px',
 					}
 				},
-				'.text-md-s': {
-					fontFamily: 'sans-semi-bold',
+				'.text-md-m': {
+					fontFamily: 'clearsans-medium',
 					fontSize: '15px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
@@ -123,7 +123,7 @@ module.exports = {
 				},
 				// text small
 				'.text-sm-r': {
-					fontFamily: 'sans-regular',
+					fontFamily: 'clearsans-regular',
 					fontSize: '13px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
@@ -131,7 +131,7 @@ module.exports = {
 					}
 				},
 				'.text-sm-m': {
-					fontFamily: 'sans-medium',
+					fontFamily: 'clearsans-medium',
 					fontSize: '13px',
 					lineHeight: '24px',
 					'@media (max-width: 576px)': {
@@ -140,7 +140,7 @@ module.exports = {
 				},
 				// text extra small
 				'.text-xs-r': {
-					fontFamily: 'sans-regular',
+					fontFamily: 'clearsans-regular',
 					fontSize: '11px',
 					lineHeight: '20px',
 					'@media (max-width: 576px)': {
@@ -148,7 +148,7 @@ module.exports = {
 					}
 				},
 				'.text-xs-m': {
-					fontFamily: 'sans-medium',
+					fontFamily: 'clearsans-medium',
 					fontSize: '11px',
 					lineHeight: '20px',
 					'@media (max-width: 576px)': {
