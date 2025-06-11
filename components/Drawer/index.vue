@@ -26,7 +26,14 @@ const props = defineProps({
     }
 })
 
+watch(()=>props.show , to=>{
+    if(to) {
+        PageScroll(!to)
+    }
+})
+
 const close = () => {
+    PageScroll(false)
     props.closable && emit('close')
 }
 </script>

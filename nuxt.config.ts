@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 			autoprefixer: {},
 		},
 	},
-	css: ['~/assets/css/tailwind.css',
+	css: ['~/assets/css/main.scss',
 		'@fortawesome/fontawesome-svg-core/styles.css',
 	],
   devtools: { enabled: true },
