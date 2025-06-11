@@ -11,7 +11,8 @@
        ],
       "price" : "15",
       "btn_value" : "Upgrade",
-      "tip":"7 days free"
+      "tip":"7 days free",
+      "best_choice" : "false"
 
     },
     {
@@ -27,7 +28,9 @@
        ],
       "price" : "39",
       "btn_value" : "Manage",
-      "tip":"2 days until expiration"
+      "tip":"2 days until expiration",
+      "best_choice" : "true"
+      
     },
     {
       "title" : "Enterprice",
@@ -42,7 +45,8 @@
        ],
       "price" : "Custom Pricing",
       "btn_value" : "contact us",
-      "tip":"individual"
+      "tip":"individual",
+      "best_choice" : "false"
     }
   ],
     "yearly" : [
@@ -57,7 +61,8 @@
        ],
       "price" : "150",
       "btn_value" : "Upgrade",
-      "tip":"7 days free"
+      "tip":"7 days free",
+      "best_choice" : "false"
 
     },
     {
@@ -73,7 +78,8 @@
        ],
       "price" : "300",
       "btn_value" : "Manage",
-      "tip":"2 days until expiration"
+      "tip":"2 days until expiration",
+      "best_choice" : "true"
     },
     {
       "title" : "Enterprice",
@@ -88,7 +94,8 @@
        ],
       "price" : "Custom Pricing",
       "btn_value" : "contact us",
-      "tip":"individual"
+      "tip":"individual",
+      "best_choice" : "false"
     }
   ]
 }

@@ -170,14 +170,14 @@ function keyup(e) {
             }
         }
         &.white {
-            @apply  text-dark fill-dark;
+            @apply bg-white text-dark fill-dark;
     
             &:hover {
-                // @apply bg-secondary-600;
+                @apply bg-gray-300;
             }
     
             &:active {
-                // @apply bg-secondary-700;
+                @apply bg-gray-400;
             }
         }
 
