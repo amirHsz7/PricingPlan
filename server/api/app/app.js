@@ -9,3 +9,4 @@ export default defineEventHandler(async (event) => {
         return error
     }
 })
+// to get data from fake api

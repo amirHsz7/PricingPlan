@@ -8,7 +8,7 @@ const getRequest = async (url, config = {}) => {
             resolve(data)
     })
 }
-
+// to get api from server api
 
 const parseApiResponse = (response) => {
     if (response) {
@@ -18,6 +18,7 @@ const parseApiResponse = (response) => {
     } else
         throw { isError: true, message: 'parse error' }
 }
+// return unnecessary nested data to flat data
 
 
 export { getRequest, parseApiResponse}
