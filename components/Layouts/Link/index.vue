@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink :to="link" class="text-primary-text no-style-link">
+    <NuxtLink :to="link" class="text-primary-text transition hover:text-dark-600 cursor-pointer ">
         {{ text }}
     </NuxtLink>
 </template>
@@ -9,7 +9,7 @@
         text:{
             type: String
         },
-        link:{
+        url:{
             type: String,
             default: '/'
         },
@@ -18,7 +18,7 @@
 
 <style scoped>
 .no-style-link {
-  all: unset;
-  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }  
 </style>

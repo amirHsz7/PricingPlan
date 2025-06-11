@@ -1,22 +1,11 @@
 <template>
-    <div class="min-h-screen">
-        
-        <!-- header
-        <div class="container py-2">
-            <PanelHeader />
-        </div> -->
-        <!-- body -->
-        <div class="container ">
-            <LayoutsHeader />
-            <slot />
-        </div>
+    <div class="min-h-screen container grid grid-rows-[auto_1fr] ">
+
+    <!-- app header -->
+    <LayoutsHeader />
+
+    <!-- app body -->
+    <slot />
+
     </div>
 </template>
-
-<script setup>
-console.log('default');
-</script>
-
-<style>
-
-</style>
