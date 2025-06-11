@@ -77,7 +77,7 @@ module.exports = {
 				'.heading-3': {
 				fontFamily: "clearsans-bold",
 				fontSize: '84px',
-				lineHeight: '48px',
+				lineHeight: '72px',
 				},
 				'.heading-6': {
 				fontFamily: "clearsans-bold",
