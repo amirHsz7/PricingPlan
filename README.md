@@ -1,75 +1,48 @@
-# Nuxt Minimal Starter
+# پروژه PricingPlan
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+این پروژه یک صفحه‌ی واکنش‌گرا (ریسپانسیو) برای نمایش پلن‌های قیمت‌گذاری است که با استفاده از Nuxt 3 توسعه داده شده و اطلاعات مورد نیاز خود را از یک API خارجی دریافت می‌کند.
 
-Make sure to install dependencies:
+## تکنولوژی‌های استفاده‌شده
+
+
+- Nuxt 3
+- Composition API
+- Tailwind CSS
+- Font Awesome
+- Sass
+
+## توضیحات پروژه
+
+
+پروژه شامل یک صفحه‌ی ساده و ریسپانسیو است که با هدف نمایش پلن‌های قیمت‌گذاری طراحی شده است. داده‌ها از یک API خارجی دریافت می‌شوند و پروژه از SSR (رندر سمت سرور) پشتیبانی می‌کند.
+
+## ویژگی‌ها
+
+
+- طراحی کاملاً ریسپانسیو برای دستگاه‌های مختلف
+- استفاده از Composition API برای ساختار بهتر کد
+- اتصال به API خارجی جهت دریافت داده‌ها
+- پشتیبانی کامل از SSR
+
+## نحوه اجرا
+
+
+برای اجرای پروژه مراحل زیر را دنبال کنید:
+
+1. نصب وابستگی‌ها:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+2. اجرای پروژه در محیط توسعه:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## نکات تکمیلی
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- پروژه صرفاً شامل بخش فرانت‌اند بوده و به fake api متصل است.
+- برای اجرای پروژه نیاز به نصب Node.js دارید.
